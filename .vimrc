@@ -13,17 +13,13 @@ set completeopt=menu
 set laststatus=2
 set foldlevelstart=20
 set linebreak
-set relativenumber 
+set relativenumber
 set number
 set scrolloff=3
 filetype indent on
 filetype on
 filetype plugin on
 syntax on
-
-let g:lightline = {
-      \ 'colorscheme': 'Tomorrow_Night_Bright',
-      \ }
 
 "colorscheme 256-grayvim
 "colorscheme Tomorrow-Night
@@ -69,4 +65,6 @@ let g:jedi#use_tabs_not_buffers = 0
 
 map no :set relativenumber!<CR> :set nu!<CR>
 
-
+let g:airline#extensions#tabline#enabled = 1
+"let g:airline_theme='powerlineish'
+let g:airline_theme='light'
