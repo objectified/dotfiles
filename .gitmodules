@@ -1,0 +1,6 @@
+[submodule ".vim/pack/vendor/start/jedi-vim"]
+	path = .vim/pack/vendor/start/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim
+[submodule ".vim/pack/vendor/start/ctrlp"]
+	path = .vim/pack/vendor/start/ctrlp
+	url = https://github.com/ctrlpvim/ctrlp.vim
