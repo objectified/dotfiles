@@ -20,6 +20,11 @@ filetype indent on
 filetype on
 filetype plugin on
 syntax on
+
+let g:lightline = {
+      \ 'colorscheme': 'Tomorrow_Night_Bright',
+      \ }
+
 "colorscheme 256-grayvim
 "colorscheme Tomorrow-Night
 "colorscheme monochrome
@@ -59,11 +64,9 @@ map <leader>v :CtrlPBufTag<CR>
 " automatically strip whitespace in python files
 autocmd BufWritePre *.py :%s/\s\+$//e
 
-let g:airline#extensions#tabline#enabled = 1
-"let g:airline_theme='powerlineish'
-let g:airline_theme='light'
-
 let g:jedi#documentation_command = "<leader>k"
 let g:jedi#use_tabs_not_buffers = 0
 
 map no :set relativenumber!<CR> :set nu!<CR>
+
+
