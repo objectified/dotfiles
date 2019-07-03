@@ -67,4 +67,6 @@ map no :set relativenumber!<CR> :set nu!<CR>
 
 let g:airline#extensions#tabline#enabled = 1
 "let g:airline_theme='powerlineish'
-let g:airline_theme='light'
+"let g:airline_theme='light'
+"let g:airline_theme='papercolor'
+let g:airline_theme='soda'
