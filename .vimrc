@@ -70,3 +70,9 @@ let g:airline#extensions#tabline#enabled = 1
 "let g:airline_theme='light'
 "let g:airline_theme='papercolor'
 let g:airline_theme='soda'
+
+function TrimWhitespace()
+    %s/\s*$//
+    ''
+endfunction
+map strip :call TrimWhitespace()<CR>
