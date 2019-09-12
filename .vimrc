@@ -13,8 +13,8 @@ set completeopt=menu
 set laststatus=2
 set foldlevelstart=20
 set linebreak
-set relativenumber
-set number
+"set relativenumber
+"set number
 set scrolloff=3
 filetype indent on
 filetype on
@@ -22,9 +22,9 @@ filetype plugin on
 syntax on
 
 "colorscheme 256-grayvim
-"colorscheme Tomorrow-Night
+colorscheme Tomorrow-Night
 "colorscheme monochrome
-colorscheme hybrid-light
+"colorscheme hybrid-light
 hi Folded ctermbg=lightYellow
 hi Folded ctermfg=darkBlue
 
