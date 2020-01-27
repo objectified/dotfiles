@@ -13,6 +13,7 @@ set completeopt=menu
 set laststatus=2
 set foldlevelstart=20
 set linebreak
+set cursorline
 "set relativenumber
 "set number
 set scrolloff=3
