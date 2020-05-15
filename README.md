@@ -26,3 +26,10 @@ Mostly my vim config. Reworked and updated to use vim 8 packages.
     rm -rf .git/modules/.vim/pack/vendor/start/vim-airline
     git rm -f .vim/pack/vendor/start/vim-airline
 ```
+
+
+## Updating all plugins
+
+```
+    git submodule update --recursive --remote
+```
