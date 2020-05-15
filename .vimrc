@@ -13,6 +13,7 @@ set completeopt=menu
 set laststatus=2
 set foldlevelstart=20
 set linebreak
+set cursorline
 "set relativenumber
 "set number
 set scrolloff=3
@@ -70,6 +71,7 @@ let g:airline#extensions#tabline#enabled = 1
 "let g:airline_theme='light'
 "let g:airline_theme='papercolor'
 let g:airline_theme='soda'
+let g:airline#extensions#whitespace#enabled = 0
 
 function TrimWhitespace()
     %s/\s*$//
