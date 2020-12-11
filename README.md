@@ -28,8 +28,22 @@ Mostly my vim config. Reworked and updated to use vim 8 packages.
 ```
 
 
-## Updating all plugins
+## Updating all vim plugins
 
 ```
     git submodule update --recursive --remote
+```
+
+## Setting up Tmux
+
+Get the tmux plugin manager
+
+```
+    git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+Install the plugins listed in tmux.conf for e.g. battery percentage in status bar
+
+```
+    <Leader> + I
 ```

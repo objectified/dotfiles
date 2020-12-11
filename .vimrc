@@ -17,6 +17,8 @@ set cursorline
 "set relativenumber
 "set number
 set scrolloff=3
+set backspace=indent,eol,start
+
 filetype indent on
 filetype on
 filetype plugin on
